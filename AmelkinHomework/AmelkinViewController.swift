@@ -5,23 +5,23 @@
 //  Created by Владимир Амелькин on 29.11.2022.
 //
 
+import UIKit
 import SnapKit
 import OtusHomework
-
-import UIKit
 
 //MARK: - AmelkinViewController
 public class AmelkinViewController: UIViewController {
 
     //MARK: UIConstants
     struct UIConstants {
-        
+        static let textOffset: CGFloat = 16
     }
     
     //MARK: UIProperties
     private let labelView: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 24, weight: .medium)
+        label.textColor = .white
         return label
     }()
     
@@ -35,7 +35,8 @@ public class AmelkinViewController: UIViewController {
         squareView.addSubview(labelView)
         
         labelView.snp.makeConstraints { maker in
-            maker.center.equalTo(squareView.center)
+            maker.centerY.equalTo(squareView.snp.centerY)
+            maker.leading.equalTo(squareView.snp.leading).offset(UIConstants.textOffset)
         }
     }
 }
