@@ -20,7 +20,7 @@ public class AmelkinViewController: UIViewController {
     //MARK: UIProperties
     private let labelView: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 24, weight: .medium)
+        label.font = UIFont.systemFont(ofSize: 64, weight: .thin)
         label.textColor = .white
         return label
     }()
@@ -30,13 +30,15 @@ public class AmelkinViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
-        labelView.text = text
         
-        squareView.addSubview(labelView)
+        view.backgroundColor = .red
+        
+        labelView.text = text
+        view.addSubview(labelView)
         
         labelView.snp.makeConstraints { maker in
-            maker.centerY.equalTo(squareView.snp.centerY)
-            maker.leading.equalTo(squareView.snp.leading).offset(UIConstants.textOffset)
+            maker.centerY.equalTo(view.snp.centerY)
+            maker.leading.equalTo(view.snp.leading).offset(UIConstants.textOffset)
         }
     }
 }
@@ -44,9 +46,6 @@ public class AmelkinViewController: UIViewController {
 //MARK: - HasOtusHomeworkView
 extension AmelkinViewController: HasOtusHomeworkView {
     public var squareView: UIView {
-        let view = UIView()
-        view.backgroundColor = .red
-        view.layer.cornerRadius = 16
         return view
     }
 }

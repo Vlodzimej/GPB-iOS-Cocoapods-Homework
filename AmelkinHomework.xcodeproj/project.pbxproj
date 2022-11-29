@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		081E0B8401EB05CFF7A8C5D9 /* Pods_AmelkinHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41DFBF60E22E17A509E2E9B /* Pods_AmelkinHomework.framework */; };
 		669B1D1C29368DF6007F7C8F /* AmelkinHomework.h in Headers */ = {isa = PBXBuildFile; fileRef = 669B1D1B29368DF6007F7C8F /* AmelkinHomework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		669B1D2329368E15007F7C8F /* AmelkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669B1D2229368E15007F7C8F /* AmelkinViewController.swift */; };
+		66D829062936AFF2002D3406 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D829052936AFF2002D3406 /* SnapKit.framework */; };
+		66D829072936AFF2002D3406 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66D829052936AFF2002D3406 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		66D8290B2936B004002D3406 /* OtusHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D8290A2936B004002D3406 /* OtusHomework.framework */; };
+		66D8290C2936B004002D3406 /* OtusHomework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66D8290A2936B004002D3406 /* OtusHomework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		66D8290D2936C067002D3406 /* OtusHomework.framework in Resources */ = {isa = PBXBuildFile; fileRef = 66D8290A2936B004002D3406 /* OtusHomework.framework */; };
+		66D8290E2936C075002D3406 /* OtusHomework.framework in Sources */ = {isa = PBXBuildFile; fileRef = 66D8290A2936B004002D3406 /* OtusHomework.framework */; };
+		70C16D2001D62985494009BB /* Pods_AmelkinHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A49C514A0CA290AAD91EFFF /* Pods_AmelkinHomework.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		66D829082936AFF2002D3406 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				66D829072936AFF2002D3406 /* SnapKit.framework in Embed Frameworks */,
+				66D8290C2936B004002D3406 /* OtusHomework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		06B4804580EF431BF447E9C1 /* Pods-AmelkinHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmelkinHomework.release.xcconfig"; path = "Target Support Files/Pods-AmelkinHomework/Pods-AmelkinHomework.release.xcconfig"; sourceTree = "<group>"; };
+		4A49C514A0CA290AAD91EFFF /* Pods_AmelkinHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmelkinHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		669B1D1829368DF6007F7C8F /* AmelkinHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmelkinHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		669B1D1B29368DF6007F7C8F /* AmelkinHomework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmelkinHomework.h; sourceTree = "<group>"; };
 		669B1D2229368E15007F7C8F /* AmelkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmelkinViewController.swift; sourceTree = "<group>"; };
-		DF15D6BAAD57DD03BE2362D3 /* Pods-AmelkinHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmelkinHomework.debug.xcconfig"; path = "Target Support Files/Pods-AmelkinHomework/Pods-AmelkinHomework.debug.xcconfig"; sourceTree = "<group>"; };
-		E41DFBF60E22E17A509E2E9B /* Pods_AmelkinHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmelkinHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D829052936AFF2002D3406 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D8290A2936B004002D3406 /* OtusHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OtusHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8DE3AE2B7B025D9117BC6C /* Pods-AmelkinHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmelkinHomework.release.xcconfig"; path = "Target Support Files/Pods-AmelkinHomework/Pods-AmelkinHomework.release.xcconfig"; sourceTree = "<group>"; };
+		B52A4F6DB7C409858827AAE8 /* Pods-AmelkinHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmelkinHomework.debug.xcconfig"; path = "Target Support Files/Pods-AmelkinHomework/Pods-AmelkinHomework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				081E0B8401EB05CFF7A8C5D9 /* Pods_AmelkinHomework.framework in Frameworks */,
+				66D8290B2936B004002D3406 /* OtusHomework.framework in Frameworks */,
+				66D829062936AFF2002D3406 /* SnapKit.framework in Frameworks */,
+				70C16D2001D62985494009BB /* Pods_AmelkinHomework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +61,9 @@
 		273A8287FB4CE9A9EBED25AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E41DFBF60E22E17A509E2E9B /* Pods_AmelkinHomework.framework */,
+				66D8290A2936B004002D3406 /* OtusHomework.framework */,
+				66D829052936AFF2002D3406 /* SnapKit.framework */,
+				4A49C514A0CA290AAD91EFFF /* Pods_AmelkinHomework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,10 +98,9 @@
 		692B59D15BC1D50F48500C73 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF15D6BAAD57DD03BE2362D3 /* Pods-AmelkinHomework.debug.xcconfig */,
-				06B4804580EF431BF447E9C1 /* Pods-AmelkinHomework.release.xcconfig */,
+				B52A4F6DB7C409858827AAE8 /* Pods-AmelkinHomework.debug.xcconfig */,
+				AD8DE3AE2B7B025D9117BC6C /* Pods-AmelkinHomework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,11 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 669B1D1F29368DF6007F7C8F /* Build configuration list for PBXNativeTarget "AmelkinHomework" */;
 			buildPhases = (
-				2D49664E6603D88DECA0392B /* [CP] Check Pods Manifest.lock */,
+				6F3F1B19030A311A2A5D50ED /* [CP] Check Pods Manifest.lock */,
 				669B1D1329368DF6007F7C8F /* Headers */,
 				669B1D1429368DF6007F7C8F /* Sources */,
 				669B1D1529368DF6007F7C8F /* Frameworks */,
 				669B1D1629368DF6007F7C8F /* Resources */,
+				66D829082936AFF2002D3406 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,13 +176,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D8290D2936C067002D3406 /* OtusHomework.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D49664E6603D88DECA0392B /* [CP] Check Pods Manifest.lock */ = {
+		6F3F1B19030A311A2A5D50ED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D8290E2936C075002D3406 /* OtusHomework.framework in Sources */,
 				669B1D2329368E15007F7C8F /* AmelkinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -299,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -313,7 +342,7 @@
 		};
 		669B1D2029368DF6007F7C8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF15D6BAAD57DD03BE2362D3 /* Pods-AmelkinHomework.debug.xcconfig */;
+			baseConfigurationReference = B52A4F6DB7C409858827AAE8 /* Pods-AmelkinHomework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -343,7 +372,7 @@
 		};
 		669B1D2129368DF6007F7C8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06B4804580EF431BF447E9C1 /* Pods-AmelkinHomework.release.xcconfig */;
+			baseConfigurationReference = AD8DE3AE2B7B025D9117BC6C /* Pods-AmelkinHomework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
