@@ -19,7 +19,7 @@ public class AmelkinViewController: UIViewController {
     //MARK: UIProperties
     private let labelView: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 64, weight: .thin)
+        label.font = UIFont.systemFont(ofSize: 48, weight: .medium)
         label.textColor = .white
         return label
     }()
@@ -30,7 +30,7 @@ public class AmelkinViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .cyan
+        view.backgroundColor = .lightGray
         
         labelView.text = text
         view.addSubview(labelView)
