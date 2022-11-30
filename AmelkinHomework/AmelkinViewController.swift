@@ -30,7 +30,7 @@ public class AmelkinViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .magenta
+        view.backgroundColor = .systemMint
         
         labelView.text = text
         view.addSubview(labelView)
