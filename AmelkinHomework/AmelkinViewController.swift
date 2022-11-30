@@ -19,7 +19,7 @@ public class AmelkinViewController: UIViewController {
     //MARK: UIProperties
     private let labelView: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 48, weight: .medium)
+        label.font = UIFont.systemFont(ofSize: 36, weight: .regular)
         label.textColor = .white
         return label
     }()
