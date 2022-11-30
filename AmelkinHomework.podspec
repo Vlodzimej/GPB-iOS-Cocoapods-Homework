@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AmelkinHomework"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -19,7 +19,6 @@ Learning project for GPB-iOS. Represents a square view with name
   spec.source_files  = "AmelkinHomework/**/*.{h,m,swift}"
 
   spec.dependency 'SnapKit'
-  spec.dependency 'OtusHomework', ':git => "https://github.com/NikkoGladkko/OtusHomework"'
-  
+
   spec.public_header_files = "AmelkinHomework/**/*.{h}"
 end

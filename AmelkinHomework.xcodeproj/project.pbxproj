@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664157372937D00E00ACFE85 /* OtusHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664157362937D00E00ACFE85 /* OtusHomeworkViewController.swift */; };
 		669B1D1C29368DF6007F7C8F /* AmelkinHomework.h in Headers */ = {isa = PBXBuildFile; fileRef = 669B1D1B29368DF6007F7C8F /* AmelkinHomework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		669B1D2329368E15007F7C8F /* AmelkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669B1D2229368E15007F7C8F /* AmelkinViewController.swift */; };
 		66D829062936AFF2002D3406 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D829052936AFF2002D3406 /* SnapKit.framework */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		4A49C514A0CA290AAD91EFFF /* Pods_AmelkinHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmelkinHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664157362937D00E00ACFE85 /* OtusHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusHomeworkViewController.swift; sourceTree = "<group>"; };
 		669B1D1829368DF6007F7C8F /* AmelkinHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmelkinHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		669B1D1B29368DF6007F7C8F /* AmelkinHomework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmelkinHomework.h; sourceTree = "<group>"; };
 		669B1D2229368E15007F7C8F /* AmelkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmelkinViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				669B1D1B29368DF6007F7C8F /* AmelkinHomework.h */,
 				669B1D2229368E15007F7C8F /* AmelkinViewController.swift */,
+				664157362937D00E00ACFE85 /* OtusHomeworkViewController.swift */,
 			);
 			path = AmelkinHomework;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				66D8290E2936C075002D3406 /* OtusHomework.framework in Sources */,
 				669B1D2329368E15007F7C8F /* AmelkinViewController.swift in Sources */,
+				664157372937D00E00ACFE85 /* OtusHomeworkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
