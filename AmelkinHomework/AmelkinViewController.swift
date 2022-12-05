@@ -46,6 +46,10 @@ public class AmelkinViewController: UIViewController {
 //MARK: - HasOtusHomeworkView
 extension AmelkinViewController: HasOtusHomeworkView {
     public var squareView: UIView {
-        return view
+        view
+    }
+    
+    public var squareViewController: UIViewController? {
+        nil
     }
 }
