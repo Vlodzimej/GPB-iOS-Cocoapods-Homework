@@ -7,5 +7,5 @@ target 'AmelkinHomework' do
 
   # Pods for AmelkinHomework
   pod 'SnapKit', '~> 5.6.0'
-  pod 'OtusHomework', :git => 'https://github.com/NikkoGladkko/OtusHomework', :tag => '0.0.12'
+  pod 'OtusHomework', :git => 'https://github.com/NikkoGladkko/OtusHomework', :tag => '0.0.17'
 end
